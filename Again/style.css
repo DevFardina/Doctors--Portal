@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Css Start */
+.header{
+    width: 100vs;
+    height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.header .navbar ul{
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.header .navbar ul li{
+    margin: 0px 18px;
+    padding: 5px;  
+}
+.header .navbar ul li a{
+    text-decoration: none;
+   font-size: 18px;
+   color: rosybrown;
+}
+/* Header Css End */
